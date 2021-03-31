@@ -25,7 +25,7 @@ CLIENT_SECRET=<your_client_secret>
 ## Without Docker
 
 1. Do step 1-4 like explained above
-2. Run `cd into myspot` in your terminal
+2. Run `cd myspot` in your terminal
 3. Run `pip install -r requirements.txt` in your terminal
 4. Run `python3 run.py` in your terminal
 5. Visit http://127.0.0.1:5000/ in your browser
