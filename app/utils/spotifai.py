@@ -23,7 +23,7 @@ def get_track_data():
 
         artists = current_track["item"]["artists"]
         track_data = {
-            "artists": 	artists[0]["name"] +
+            "artists": artists[0]["name"] +
                         (f" ft {', '.join(a['name'] for a in artists[1:])}"
                         if len(artists) > 1 else ""),
             "title": current_track["item"]["name"],
@@ -32,6 +32,7 @@ def get_track_data():
         }
 
         return track_data
+
     except Exception:
         return None
 
